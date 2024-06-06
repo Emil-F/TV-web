@@ -17,6 +17,7 @@ model Tv {
   poster_path   String
   backdrop_path String
   release_date  String
+  rating        Float
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 }
